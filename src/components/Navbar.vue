@@ -9,13 +9,19 @@
                         v-for="(page, index) in pages"
                         :key="index"
                     >
-                        <a 
+                        <!-- <a 
                             class="nav-link" 
                             :class="{active: activePage == index}" 
                             aria-current="page" 
                             :href="page.link.url"
                             @click.prevent="navLinkClick(index)"
-                        >{{ page.link.text }}</a>
+                        >{{ page.link.text }}</a> -->
+                        <router-link 
+                            :to="page.link.url" 
+                            @click.prevent="navLinkClick(index)" 
+                            class="nav-link"
+                            :class="{active: activePage == index}"
+                        >{{ page.link.text }}</router-link>
                     </li>
                 </ul>
             </div>

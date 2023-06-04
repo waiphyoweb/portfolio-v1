@@ -1,8 +1,10 @@
 <template>
   <Navbar :pages="pages" :active-page="activePage" :nav-link-click="(index) => activePage = index" />
+  <router-view />
 </template>
 
 <script>
+// import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue';
 
 export default {
