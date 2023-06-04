@@ -1,6 +1,6 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container-xxl">
             <a class="navbar-brand" href="#">Wai Phyo</a>
             <div>
                 <ul class="navbar-nav">
@@ -34,3 +34,10 @@
         props: [ 'pages', 'activePage', 'navLinkClick'],
     }
 </script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.navbar-brand {
+    font-family: 'Monoton', cursive;
+}
+</style>
