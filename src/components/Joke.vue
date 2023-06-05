@@ -1,5 +1,5 @@
 <template>
-    <div class="container-lg text-center my-5 p-5">
+    <div class="container-lg text-center p-5">
         <div class="mb-5">
             <p class="fs-5">Thank you for visiting my portfolio. I appreciate your time and consideration. Feel free to reach out to me for any inquiries or opportunities. I look forward to connecting with you! Have a good day and I hope you get some enjoyment with this joke.</p>
         </div>
@@ -38,3 +38,9 @@
         },
     };
 </script>
+
+<style scoped>
+.container-lg {
+  margin-top: 100px;
+}
+</style>

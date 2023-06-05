@@ -16,7 +16,7 @@ export default {
       activePage: 0,
       pages: [
         { link: {text: "Home", url: "/"}, content: "" },
-        { link: {text: "My Projects", url: "/projects"} },
+        { link: {text: "Projects", url: "/projects"} },
         { link: {text: "Contact", url: "/contact"} },
         { link: {text: "Joke", url: "/joke"} },
       ]

@@ -1,6 +1,6 @@
 <template>
-    <div class="container-lg shadow rounded text-center p-5 my-5">
-        <h2>Explore my portfolio for examples of my work and let's discuss how I can bring value to your next project.</h2>
+    <div class="container-lg shadow rounded text-center p-5">
+        <p class="fs-5">Explore my portfolio for examples of my work and let's discuss how I can bring value to your next project.</p>
         <form ref="form" @submit.prevent="sendEmail">
             <div class="form-group">
                 <div class="form-floating mb-3">
@@ -40,5 +40,11 @@
       }
     }
   }
-  </script>
+</script>
+  
+<style scoped>
+.container-lg {
+  margin-top: 150px;
+}
+</style>
   
