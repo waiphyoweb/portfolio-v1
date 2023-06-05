@@ -1,11 +1,11 @@
 <template>
-    <div id="home" class="container-fluid mx-auto bg-dark py-5">
-        <div class="container-xxl d-flex flex-row align-items-center">
-            <h1 class="name text-white">Wai Phyo | <small>Web Developer</small></h1>
+    <div id="home" class="container-fluid mx-auto bg-dark my-5 py-5">
+        <div class="container-xxl d-flex flex-md-row flex-column gap-5 align-items-center mx-auto w-100">
+            <h1 class="name text-white w-50">Wai Phyo | <small>Web Developer</small></h1>
             <img src="../assets/myphoto.png" alt="Wai Phyo" class="w-50">
         </div>
     </div>
-    <div class="container-xxl text-center d-flex flex-row align-items-center w-100 py-5">
+    <div class="container-xxl text-center d-flex flex-md-row flex-column-reverse gap-5 align-items-center w-100 py-5">
         <img src="../assets/code.png" alt="code-editor" class="w-50">
         <div class="w-50">
             <h2>About Me</h2>
@@ -16,7 +16,7 @@
         <div class="container-xxl">
 
             <h2>Skills</h2>
-            <div class="d-flex flex-row gap-5 ">
+            <div class="d-flex flex-md-row flex-column gap-5 ">
                 <div class="shadow-lg p-3 rounded vstack gap-3">
                     <h3>Languages</h3>
                     <div class="p-2 d-flex flex-row justify-content-center">
